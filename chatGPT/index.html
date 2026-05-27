@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LauVet | Clínica Veterinaria</title>
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      🐾 LauVet
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <h1>El cuidado que tu mascota merece</h1>
+
+      <p>
+        En LauVet brindamos atención veterinaria profesional,
+        cálida y confiable para cuidar a quienes más amas.
+      </p>
+
+      <a href="#contacto" class="btn-primary">
+        Agenda una cita
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+  <section class="about fade-in" id="nosotros">
+
+    <div class="section-title">
+      <h2>Sobre Nosotros</h2>
+      <p>Amor, experiencia y compromiso con cada mascota.</p>
+    </div>
+
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          En LauVet entendemos que las mascotas son parte de la familia.
+          Nuestro equipo veterinario está comprometido con ofrecer
+          atención médica integral, tecnología moderna y un trato humano
+          y cercano.
+        </p>
+
+        <p>
+          Nos enfocamos en generar confianza y tranquilidad para que
+          cada visita sea una experiencia positiva tanto para las
+          mascotas como para sus dueños.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img src="images/estudiantes-medicina-veterinaria.jpg" alt="Veterinaria con mascota">
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services fade-in" id="servicios">
+
+    <div class="section-title">
+      <h2>Nuestros Servicios</h2>
+      <p>Atención veterinaria completa y profesional.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <i class="fa-solid fa-stethoscope"></i>
+        <h3>Consultas</h3>
+        <p>Evaluaciones médicas completas y diagnóstico profesional.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-syringe"></i>
+        <h3>Vacunación</h3>
+        <p>Planes de vacunación seguros para perros y gatos.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-scissors"></i>
+        <h3>Peluquería</h3>
+        <p>Servicios de higiene y estética para tu mascota.</p>
+      </div>
+
+      <div class="service-card">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h3>Urgencias</h3>
+        <p>Atención rápida y especializada cuando más lo necesitas.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonials fade-in" id="testimonios">
+
+    <div class="section-title">
+      <h2>Lo que dicen nuestros clientes</h2>
+    </div>
+
+    <div class="testimonial-container">
+
+      <div class="testimonial-card">
+        <p>
+          “Excelente atención y mucho cariño con mi mascota.
+          Totalmente recomendados.”
+        </p>
+        <h4>— Laura Gómez</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>
+          “Profesionales, atentos y muy humanos.
+          Mi perro siempre recibe el mejor cuidado.”
+        </p>
+        <h4>— Carlos Ramírez</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="gallery fade-in" id="galeria">
+
+    <div class="section-title">
+      <h2>Nuestros Pacientes Felices</h2>
+    </div>
+
+    <div class="gallery-grid">
+
+      <img src="images/5cf19827822d0.jpeg" alt="Mascota 1">
+      <img src="images/estudio-revela-que-hay-5-tipos-de-duenos-de-gatos-descubre-cual-eres-tu-1194155.jpg" alt="Mascota 2">
+      <img src="images/regalos_para_recordar_perro_0.jpg" alt="Mascota 3">
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact fade-in" id="contacto">
+
+    <div class="section-title">
+      <h2>Contáctanos</h2>
+      <p>Estamos listos para ayudarte.</p>
+    </div>
+
+    <div class="contact-container">
+
+      <form class="contact-form">
+
+        <input type="text" placeholder="Nombre completo" required>
+
+        <input type="email" placeholder="Correo electrónico" required>
+
+        <textarea
+          placeholder="Escribe tu mensaje..."
+          required
+        ></textarea>
+
+        <button type="submit" class="btn-primary">
+          Enviar mensaje
+        </button>
+
+      </form>
+
+      <div class="contact-info">
+        <p><i class="fa-solid fa-location-dot"></i> Calle 123 #45-67</p>
+        <p><i class="fa-solid fa-phone"></i> +57 300 000 0000</p>
+        <p><i class="fa-solid fa-envelope"></i> contacto@lauvet.com</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 LauVet - Clínica Veterinaria. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- WHATSAPP -->
+  <a
+    href="https://wa.me/573000000000"
+    class="whatsapp-btn"
+    target="_blank"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</body>
+</html>
